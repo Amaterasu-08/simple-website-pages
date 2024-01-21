@@ -1,0 +1,125 @@
+.usecase{
+    position: relative;
+    width: 100%;
+    height :110vh;
+    background-image: url("../../../public/imgs/Rectangle\ 10.png");
+}
+
+.a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 10px; */
+    padding: 2% 0 0 0;
+}
+
+.a img{
+    padding: 0.5% 0;
+}
+
+.b{
+    display: flex;
+    flex: 1;
+    margin: 2px;
+    
+}
+
+.b ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+}
+
+.b ul li {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 2% 0 0 5%;
+    margin: 5px 0;
+}
+
+.b ul li img{
+    height: 190px;
+    width: 200px;
+    
+}
+
+.parent{
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+
+.child-1 {
+    position: absolute;
+    left: 105px;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.child-1 img{
+    
+   padding: 7% 0px;
+    
+}
+
+.subimage{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.child-2{
+    position: absolute;
+    left: 360px;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.child-2 img{
+    
+    padding: 7% 0px;
+     
+ }
+
+ .child-3{
+    position: absolute;
+    left: 620px;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.child-3 img{
+    
+    padding: 7% 0px;
+     
+ }
+
+ .child-4{
+    position: absolute;
+    left: 880px;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.child-4 img{
+    
+    padding: 7% 0px;
+     
+ }
+
+ .bottom{
+    top: 370px;
+    position: absolute;
+    z-index: 1;
+ }
